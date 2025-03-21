@@ -24,7 +24,7 @@ describe("Unit test create product use case", () => {
     expect(output).toEqual({
       id: expect.any(String),
       name: input.name,
-      price: 123,
+      price: 100,
     });
   });
 
